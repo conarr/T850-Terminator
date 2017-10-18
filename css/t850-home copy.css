@@ -1,0 +1,87 @@
+body
+	{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("../images/t850-home-background.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color:#000000;
+	}
+
+#outerWrapper
+	{
+	margin: 0 auto 0 auto;
+	height: 1100px;
+	width: 1020px;
+	}
+
+
+/* Header Area Starts Here */
+
+	#siteHeader
+		{
+		height: 52px;
+		}
+
+	#siteHeader img
+		{
+	    float:left;
+		padding-top: 14px;
+		}
+
+	a.iconBlock
+		{
+		display:inline-block;
+		float:right;
+		color: #808080;
+		padding-top: 10px;
+		padding-left: 10px;
+		}
+
+	a:hover.iconBlock
+		{
+		color: #ff0000;
+		}
+/* Header Area Ends Here */
+
+
+/* Logo Area Starts Here */
+	#logoHolder
+		{
+		margin: 0 auto 0 auto;
+	    display:inline-block;
+	    width: 1020px;
+		}
+
+	.logoLeft
+		{
+	    float:left;
+		padding-top: 30px;
+		}
+
+	.logoRight
+		{
+	    float:right;
+		padding-top: 30px;
+		}
+/* Logo Area Starts Here */
+
+
+#mainMenu
+	{
+	position: absolute;
+    bottom: 0;
+	}
+
+
+/* Generic Type Styling Starts Here */
+	a
+		{
+		text-decoration: none;
+		}
+
+	strong
+		{
+		font-weight: 800;
+		}
+/* Generic Type Styling Ends Here */

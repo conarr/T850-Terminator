@@ -1,0 +1,792 @@
+body
+	{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("../images/t850-masthead-background.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #000000;
+	}
+
+#topWrapper
+	{
+	margin: 0 auto 0 auto;
+	height: 400px;
+	width: 1020px;
+	}
+
+
+/* Header Area Starts Here */
+	#siteHeader
+		{
+		height: 52px;
+		}
+
+	#siteHeader img
+		{
+	    float: left;
+		padding-top: 14px;
+		}
+
+	a.iconBlock
+		{
+		display: inline-block;
+		float: right;
+		color: #808080;
+		padding-top: 10px;
+		padding-left: 10px;
+		}
+
+	a:hover.iconBlock
+		{
+		color: #ff0000;
+		}
+/* Header Area Ends Here */
+
+
+/* Logo Area Starts Here */
+	#logoHolder
+		{
+		margin: 0 auto 0 auto;
+	    display: inline-block;
+	    width: 1020px;
+		}
+
+	.logoLeft
+		{
+	    float: left;
+		padding-top: 30px;
+		}
+
+	.logoRight
+		{
+	    float: right;
+		padding-top: 30px;
+		}
+/* Logo Area Ends Here */
+
+.sectionHeading
+	{
+	float: left;
+	padding-top: 55px;
+	}
+
+#mainMenu
+	{
+	position: absolute;
+    top: 310px;
+	}
+
+
+/* Portfolio Area Starts Here */
+	#portfolioIndividual, #portfolioMultiple, #portfolioMass
+		{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: top center;
+		}
+
+	#portfolioIndividual
+		{
+		background-image: url("../images/portfolio/port-individual-terminations.jpg");
+		}
+
+	#portfolioMultiple
+		{
+		background-image: url("../images/portfolio/port-multiple-terminations.jpg");
+		}
+
+	#portfolioMass
+		{
+		background-image: url("../images/portfolio/port-mass-termination.jpg");
+		}
+
+	.portfolioIndividualContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 367px;
+		}
+
+	.portfolioMultipleContainer, .portfolioMassContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 370px;
+		}
+
+	.portfolioIndividualContainer h1, .portfolioMultipleContainer h1, .portfolioMassContainer h1
+		{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #ffffff;
+		padding-top: 115px;
+		text-align: left;
+		padding-right: 500px;
+		}
+/* Portfolio Area Ends Here */
+
+
+/* About Me Submenu Navigation Starts Here */
+	#subMenuContainer
+		{
+		height: 31px;
+		background-color: #808080;
+		border-top: 1px solid #ff0000;
+		border-bottom: 1px solid #ff0000;
+		}
+
+	#subMenu
+		{
+		margin: 0 auto 0 auto;
+		height: 28px;
+		width: 1020px;
+		background-color: #808080;
+		}
+
+	#subMenuNav
+		{
+		width: 1020px;
+		float: left;
+		padding: 0;
+		list-style: none;
+		background-color: #808080;
+		margin-bottom: 10px;
+		}
+
+	#subMenuNav li
+		{
+		float: left;
+		}
+
+	#subMenuNav li a
+		{
+		width: 170px;
+		display: block;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 0px;
+		padding-right: 0px;
+		font-weight: 400;
+		font-size: 16px;
+		text-decoration: none;
+		text-align: center;
+		color: #000000;
+		}
+
+	#subMenuNav li a:hover
+		{
+		background-color: #ff0000;
+		color: #ffffff;
+		}
+/* About Me Submenu Navigation Ends Here */
+
+
+/* Services Area Starts Here */
+	.serviceLeft1, .serviceLeft2, .serviceRight1, .serviceRight2
+		{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: top center;
+		}
+
+	.serviceLeft1
+		{
+		background-image: url("../images/services/individual-terminations.jpg");
+		}
+
+	.serviceRight1
+		{
+		background-image: url("../images/services/multiple-terminations.jpg");
+		}
+
+	.serviceLeft2
+		{
+		background-image: url("../images/services/mass-termination.jpg");
+		}
+
+	.serviceRight2
+		{
+		background-image: url("../images/services/large-scale-demolition.jpg");
+		}
+
+	.serviceLeftContainer, .serviceRightContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 450px;
+		}
+
+	.serviceLeft1 h1, .serviceRight1 h1, .serviceLeft2 h1, .serviceRight2 h1
+		{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #ffffff;
+		padding-top: 125px;
+		}
+
+	.serviceLeft1 h1, .serviceLeft2 h1
+		{
+		text-align: left;
+		padding-right: 540px;
+		}
+
+	.serviceRight1 h1, .serviceRight2 h1
+		{
+		text-align: right;
+		padding-left: 540px;
+		}
+
+	.serviceLeft1 p, .serviceRight1 p, .serviceLeft2 p, .serviceRight2 p
+		{
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 21px;
+		color: #ffffff;
+		padding-top: 30px;
+		}
+
+	.serviceLeft1 p, .serviceLeft2 p
+		{
+		text-align: left;
+		padding-right: 540px;
+		}
+
+	.serviceRight1 p, .serviceRight2 p
+		{
+		text-align: right;
+		padding-left: 540px;
+		}
+
+	a.iconUpLeft
+		{
+		float: left;
+		color: #ffffff;
+		padding-top: 15px;
+		}
+
+	a.iconUpRight
+		{
+		float: right;
+		color: #ffffff;
+		padding-top: 15px;
+		}
+
+	a:hover.iconUpLeft, a:hover.iconUpRight
+		{
+		color: #000000;
+		}
+/* Services Area Ends Here */
+
+
+/* About Me Background Area Starts Here */
+	#aboutBackground
+		{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-image: url("../images/aboutme/my-background.jpg");
+		}
+
+	.aboutBackgroundContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 497px;
+		}
+
+	.aboutBackgroundContainer h1
+		{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #ffffff;
+		padding-top: 95px;
+		text-align: left;
+		padding-right: 540px;
+		}
+
+	.aboutBackgroundContainer p
+		{
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 21px;
+		color: #ffffff;
+		padding-top: 30px;
+		text-align: left;
+		padding-right: 540px;
+		}
+
+	#videoHolder
+		{
+		float: right;
+		padding-top: 90px;
+		padding-left: 30px;
+		}
+/* About Me Background Area Ends Here */
+
+
+/* About Me Specifications Area Starts Here */
+	#aboutSpecifications
+		{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-image: url("../images/aboutme/t850-specifications.jpg");
+		}
+
+	.aboutSpecificationsContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 590px;
+		padding-top: 110px;
+		}
+/* About Me Specifications Area Ends Here */
+
+
+/* About Me Specifications Table Starts Here */
+	.specificationsList
+		{
+		float: right;
+		text-align: left;
+		width: 600px;
+		}
+
+	.specificationsList table
+		{
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 160px;
+		}
+
+	.specificationsList th, .specificationsList td
+		{
+		color:#202020;
+		border-bottom: 1px solid #ff0000;
+		border-top: 1px solid #ff0000;
+		line-height: 18px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		}
+
+	.specificationsList th
+		{
+		font-weight: 700;
+		font-size: 14px;
+		}
+
+	.specificationsList td
+		{
+		width: 440px;
+		font-weight: 400;
+		font-size: 14px;
+		}
+/* About Me Specifications Table Ends Here */
+
+
+/* About Me Skills Area Starts Here */
+	#aboutSkills
+		{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-image: url("../images/aboutme/my-skills.jpg");
+		}
+
+	.aboutSkillsContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 464px;
+		}
+
+	.aboutSkillsContainer h1
+		{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #ffffff;
+		padding-top: 95px;
+		text-align: left;
+		padding-right: 540px;
+		}
+
+	.aboutSkillsContainer p
+		{
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 21px;
+		color: #ffffff;
+		padding-top: 30px;
+		text-align: left;
+		padding-right: 540px;
+		}
+/* About Me Skills Area Starts Here */
+
+
+/* About Me Prices Area Starts Here */
+	#aboutPrices
+		{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-image: url("../images/aboutme/my-prices.jpg");
+		}
+
+	.aboutPricesContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 453px;
+		}
+
+	.aboutPricesContainer h1
+		{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #ffffff;
+		padding-top: 95px;
+		text-align: right;
+		padding-left: 540px;
+		}
+
+	.aboutPricesContainer p
+		{
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 21px;
+		color: #ffffff;
+		padding-top: 30px;
+		text-align: right;
+		padding-left: 540px;
+		}
+/* About Me Prices Area Starts Here */
+
+
+/* About Me Prices Table Starts Here */
+	.pricesList
+		{
+		float: right;
+		text-align: left;
+		width: 435px;
+		}
+
+	.pricesList table
+		{
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-top: 160px;
+		}
+
+	.pricesList th, .pricesList td
+		{
+		color: #ffffff;
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+		line-height: 18px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		}
+
+	.pricesList th
+		{
+		font-weight: 700;
+		font-size: 14px;
+		}
+
+	.pricesList td
+		{
+		font-weight: 400;
+		font-size: 14px;
+		width: 240px;
+		}
+/* About Me Prices Table Ends Here */
+
+
+/* Contact Me Area Starts Here */
+	#contactDetails
+		{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-image: url("../images/contactme/my-details.jpg");
+		}
+
+	.contactDetailsContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 470px;
+		}
+
+	.contactDetailsContainer h2
+		{
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 22px;
+		color: #ffffff;
+		padding-top: 90px;
+		text-align: left;
+		}
+
+	.contactDetailsContainer h3
+		{
+		font-weight: 800;
+		font-size: 15px;
+		line-height: 18px;
+		color: #ffffff;
+		text-align: left;
+		}
+
+	.contactDetailsContainer p
+		{
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 21px;
+		color: #ffffff;
+		padding-top: 0px;
+		text-align: left;
+		}
+
+	.contactDetailsContainer a
+		{
+		color: #ffffff;
+		padding-top: 5px;
+		text-decoration: none;
+		}
+
+	.contactDetailsContainer a:hover
+		{
+		color: #ff0000;
+		}
+
+	a.socialIcons
+		{
+		color: #ffffff;
+		padding-right: 10px;
+		}
+
+	a:hover.socialIcons
+		{
+		color: #ff0000;
+		}
+
+	.contactMap iframe
+		{
+		float: right;
+		clear:both;
+		}
+
+	#mapHolder
+		{
+		float: right;
+		padding-left: 30px;
+		}
+
+/* Contact Me Area Ends Here */
+
+
+/* Shop Area Starts Here */
+	#shopSpares, #shopAccessories
+		{
+		background-attachment: scroll;
+		background-repeat: repeat;
+		background-position: top center;
+		background-image: url("../images/shop/shop-background.jpg");
+		}
+
+	.shopSparesContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 530px;
+		}
+
+	.shopAccessoriesContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		height: 440px;
+		}
+
+	.shopAccessoriesContainer h1
+		{
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 19px;
+		color: #ffffff;
+		padding-top: 20px;
+		text-align: left;
+		}
+
+	.shopAccessoriesContainer a
+		{
+		color: #ffffff;
+		padding-top: 5px;
+		text-decoration: none;
+		}
+
+	.shopAccessoriesContainer a:hover
+		{
+		color: #ff0000;
+		}
+/* Shop Area Ends Here */
+
+
+/* Social Area Starts Here */
+	#socialBlog, #socialEvents
+		{
+		background-attachment: scroll;
+		background-repeat: repeat;
+		background-position: top center;
+		}
+
+	#socialBlog
+		{
+		background-image: url("../images/shop/shop-background.jpg");
+		}
+
+	#socialEvents
+		{
+		background-image: url("../images/social/social-events-background.jpg");
+		}
+
+	.socialBlogContainer, .socialEventsContainer
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		}
+
+	.blogPanel, .eventsPanel
+		{
+		margin: 0 auto 0 auto;
+		width: 1020px;
+		background-color: #c8c8c8;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		}
+
+	.blogPanel .imageRight, .blogPanel .imageLeft, .eventsPanel .imageRight, .eventsPanel .imageLeft
+		{
+		border-style: solid;
+		border-width: 1px;
+		border-color: #808080;
+		clear: right;
+		margin-left: 25px;
+		margin-top: 0px;
+		margin-right: 25px;
+		margin-bottom: 5px;
+		vertical-align: top;
+		}
+	.blogPanel .imageRight
+		{
+		float: right;
+		}
+
+	.blogPanel .imageLeft, .eventsPanel .imageLeft
+		{
+		float: left;
+		}
+
+	.blogPanel p, .eventsPanel p
+		{
+		color: #202020;
+		font-size: 15px;
+		line-height: 20px;
+		text-align: justify;
+		padding-left: 25px;
+		padding-right: 25px;
+		}
+
+	.blogPanel h1, .eventsPanel h1
+		{
+		color: #505050;
+		font-size: 24px;
+		font-weight: 800;
+		line-height: 24px;
+		text-align: left;
+		padding-left: 25px;
+		padding-right: 25px;
+		}
+
+	.blogPanel h3, .eventsPanel h3
+		{
+		color: #303030;
+		font-size: 12px;
+		line-height: 28px;
+		text-align: left;
+		padding-left: 25px;
+		padding-right: 25px;
+		}
+
+	.blogPanel a.iconUpLeft, .eventsPanel a.iconUpLeft
+		{
+		float: left;
+		color: #ffffff;
+		padding-top: 15px;
+		padding-left: 25px;
+		padding-bottom: 15px;
+		}
+
+	.blogPanel a:hover.iconUpLeft, .eventsPanel a:hover.iconUpLeft
+		{
+		color: #000000;
+		}
+
+	.mediaButton
+		{
+		float: right;
+		padding-right: 25px;
+		}
+/* Social Area Ends Here */
+
+
+/* Footer Styling Starts Here */
+	#siteFooter
+		{
+		text-align: center;
+		font-size: 13px;
+		line-height: 20px;
+		color:#808080;
+		height: 120px;
+		padding-top: 5px;
+		}
+
+	#siteFooter a
+		{
+		color: #808080;
+		padding-top: 15px;
+		text-decoration: none;
+		}
+
+	#siteFooter a:hover
+		{
+		color: #ff0000;
+		}
+
+	.imageValidate
+		{
+		margin-left: 5px;
+		margin-top: 5px;
+		margin-right: 5px;
+		margin-bottom: 0px;
+		vertical-align: top;
+		}
+/* Footer Styling Ends Here */
+
+
+/* Generic Type Styling Starts Here */
+	a
+		{
+		text-decoration: none;
+		}
+
+	strong
+		{
+		font-weight: 800;
+		}
+/* Generic Type Styling Ends Here */
